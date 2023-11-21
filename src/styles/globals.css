@@ -1,0 +1,59 @@
+.ota {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 25px;
+}
+
+.otaa {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.cart {
+  max-width: 300px;
+  text-align: center;
+}
+
+.cart img {
+  width: 100%;
+  height: 260px;
+}
+
+.dada {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  display: block;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 29px;
+}
+
+.kotrol{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 42px;
+}
+
+.kotrol button{
+  margin-bottom: 20px;
+  border: 0;
+  padding: 0;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  border-radius: 50%;   
+  background-color: red;
+}
